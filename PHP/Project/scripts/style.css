@@ -1,0 +1,46 @@
+
+div {
+    display: block;
+}
+    .top {
+        /* font */
+            font-size: 40px;
+            font-family: fantasy;
+        /* border */
+            border: 20px;
+            border-radius: 20px;
+            border-style: double;
+            border-color: green;
+        /* transform */
+            position:fixed;
+            top: 0px;
+            bottom: 90%;
+            left:0px;
+            right: 0px;
+            text-align: center;
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/008/774/766/small/beautiful-block-brick-wall-pattern-texture-background-vector.jpg");
+    }
+    .sidebar {
+        position: fixed;
+        top: 10%;
+        height:100%;
+        outline-color: orange;
+        width: 10%;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR30xvS-l31GyjeiYLbqaIiTDlfuprk5DW8VA&usqp=CAU");
+        background-size: 100%;
+        font-size: 40px;
+        text-shadow:-1px 1px 0 yellow, 
+                    1px -1px 0 purple;
+        color: orange;
+    }
+span.middle {
+    position: absolute;
+    left:12%;
+    top: 10%;
+    margin-left: 200px;
+}
+tr {
+    border-color: blue;
+    border-style: groove;
+    border-width: 1px;
+}
